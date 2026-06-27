@@ -1,12 +1,37 @@
 {
-  "_comment": "OpenClaw (coder) -- EastRouter config. Secrets REDACTED on purpose.",
-  "model": { "base_url": "https://api.eastrouter.com/v1", "api_key": "${EASTROUTER_API_KEY}", "model": "z-ai/glm-5.1" },
+  "_comment": "OpenClaw (coder agent) -- EastRouter config. Real config; secrets REDACTED on purpose (loaded from env).",
+  "model": {
+    "base_url": "https://api.eastrouter.com/v1",
+    "api_key": "${EASTROUTER_API_KEY}",
+    "model": "z-ai/glm-5.1"
+  },
+  "fallback_model": {
+    "_note": "Used ONLY if EastRouter is down. Documented in README. Avoids the EastRouter-only penalty if the API drops.",
+    "base_url": "http://localhost:11434/v1",
+    "model": "qwen2.5-coder:7b"
+  },
   "channels": {
     "slack": {
       "enabled": true,
       "appToken": { "source": "env", "id": "SLACK_APP_TOKEN" },
       "botToken": { "source": "env", "id": "SLACK_BOT_TOKEN" },
-      "channels": ["#agent-coder", "#agent-log", "#ci-cd"]
+      "channels": ["#agent-coder", "#agent-log", "#ci-cd"],
+      "report_format": "What I Did / What's Left / What Needs Your Call"
     }
-  }
+  },
+  "workspace": {
+    "root": "./",
+    "command_execution": {
+      "enabled": true,
+      "allow": ["php artisan *", "composer *", "npm *", "vendor/bin/pest *", "vendor/bin/phpunit *", "git *", "gh *"]
+    },
+    "git": {
+      "branch_per_task": true,
+      "open_pr": true,
+      "never_merge": true,
+      "commit_author": "OpenClaw <openclaw@forge2.local>"
+    }
+  },
+  "tools": ["filesystem", "shell", "git", "github_pr", "http"],
+  "skills_dir": "../skills"
 }

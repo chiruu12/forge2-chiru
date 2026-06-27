@@ -1,11 +1,27 @@
 # Hermes (orchestrator / product owner) -- EastRouter config. Secrets REDACTED on purpose.
 provider: eastrouter
 base_url: https://api.eastrouter.com/v1
-api_key:  ${EASTROUTER_API_KEY}      # never commit the real sk-er_ key
-model:    deepseek/deepseek-v4-pro    # strong reasoning for planning; or z-ai/glm-5.1
+api_key:  ${EASTROUTER_API_KEY}        # never commit the real sk-er_ key
+model:    deepseek/deepseek-v4-pro      # heavy reasoning for architecture + sprint planning (1M ctx)
+fallback_model: z-ai/glm-5.1            # all-round; used if deepseek is slow/unavailable
+
 memory:
   enabled: true
+  store: ./agents/hermes/memory         # persists backlog, sprint state, decisions across sessions
+
+role: product_owner
+responsibilities:
+  - decompose the human spec into scoped, testable issues
+  - write a sprint doc to sprints/sprint-0N.md BEFORE assigning work
+  - hand off ONE issue at a time to OpenClaw in #agent-coder
+  - track progress; post status to #sprint-main
+  - never write code, never merge -- the human merges
+
 slack:
   app_token: ${SLACK_APP_TOKEN}
   bot_token: ${SLACK_BOT_TOKEN}
   channels: ["#sprint-main", "#agent-coder", "#human-review"]
+
+worker:
+  name: openclaw
+  handoff_channel: "#agent-coder"
