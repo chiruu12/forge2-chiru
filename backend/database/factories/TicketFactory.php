@@ -21,7 +21,7 @@ class TicketFactory extends Factory
      */
     public function definition(): array
     {
-        $statuses = ['open', 'pending', 'resolved', 'closed'];
+        $statuses = ['open', 'in_progress', 'pending', 'resolved', 'closed'];
         $priorities = ['low', 'medium', 'high', 'urgent'];
 
         return [
