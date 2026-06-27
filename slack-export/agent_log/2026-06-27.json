@@ -1,0 +1,101 @@
+[
+    {
+        "user": "U0BBVNZ82RH",
+        "type": "message",
+        "ts": "1782553167.613139",
+        "app_id": "A08SF47R6P4",
+        "text": "\/hermes sethome *Sent using* Claude",
+        "team": "T0BBLK9BP1V",
+        "user_team": "T0BBLK9BP1V",
+        "source_team": "T0BBLK9BP1V",
+        "user_profile": {
+            "avatar_hash": "g3e80223a964",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/3e80223a964b3470386afb307c2e030e.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0007-72.png",
+            "first_name": "chirag",
+            "real_name": "chirag",
+            "display_name": "",
+            "team": "T0BBLK9BP1V",
+            "name": "chirag",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "i8lKEI",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\/hermes sethome"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "context",
+                "block_id": "SslSs",
+                "elements": [
+                    {
+                        "type": "mrkdwn",
+                        "text": "*Sent using* Claude",
+                        "verbatim": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0BBVNZ82RH",
+        "type": "message",
+        "ts": "1782555423.798269",
+        "client_msg_id": "6e9cddac-a20e-4e5f-aa74-6ebcc4260c67",
+        "text": "\/<@U0BDN8QJ74Z>",
+        "team": "T0BBLK9BP1V",
+        "user_team": "T0BBLK9BP1V",
+        "source_team": "T0BBLK9BP1V",
+        "user_profile": {
+            "avatar_hash": "g3e80223a964",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/3e80223a964b3470386afb307c2e030e.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0007-72.png",
+            "first_name": "chirag",
+            "real_name": "chirag",
+            "display_name": "",
+            "team": "T0BBLK9BP1V",
+            "name": "chirag",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "GJvos",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\/"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0BDN8QJ74Z"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U0BDN8QJ74Z",
+        "text": "<@U0BDN8QJ74Z> has joined the channel",
+        "inviter": "U0BBVNZ82RH",
+        "type": "message",
+        "ts": "1782555433.533439"
+    }
+]

@@ -1,0 +1,922 @@
+[
+    {
+        "user": "U0BBVNZ82RH",
+        "type": "message",
+        "ts": "1782552119.122119",
+        "app_id": "A08SF47R6P4",
+        "text": ":white_check_mark: *CI green* — PR #2 `feat\/s1-foundation`: backend job passed (composer install → migrate → Pest auth tests). <https:\/\/github.com\/chiruu12\/forge2-chiru\/pull\/2> *Sent using* Claude",
+        "team": "T0BBLK9BP1V",
+        "user_team": "T0BBLK9BP1V",
+        "source_team": "T0BBLK9BP1V",
+        "user_profile": {
+            "avatar_hash": "g3e80223a964",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/3e80223a964b3470386afb307c2e030e.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0007-72.png",
+            "first_name": "chirag",
+            "real_name": "chirag",
+            "display_name": "",
+            "team": "T0BBLK9BP1V",
+            "name": "chirag",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "5nDgVO",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "white_check_mark",
+                                "unicode": "2705"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "CI green",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " — PR #2 "
+                            },
+                            {
+                                "type": "text",
+                                "text": "feat\/s1-foundation",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": backend job passed (composer install → migrate → Pest auth tests). "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/chiruu12\/forge2-chiru\/pull\/2",
+                                "from_llm": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "context",
+                "block_id": "PPK9e",
+                "elements": [
+                    {
+                        "type": "mrkdwn",
+                        "text": "*Sent using* Claude",
+                        "verbatim": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0BBYPJ3YP7",
+        "type": "message",
+        "ts": "1782552397.021989",
+        "bot_id": "B0BBLM5RPD5",
+        "app_id": "A0BBYMVADDK",
+        "text": ":white_check_mark: CI success — branch `main` (b193cdf) · run <https:\/\/github.com\/chiruu12\/forge2-chiru\/actions\/runs\/28285145280>",
+        "team": "T0BBLK9BP1V",
+        "bot_profile": {
+            "id": "B0BBLM5RPD5",
+            "deleted": false,
+            "name": "Unplug-Manager",
+            "updated": 1782555285,
+            "app_id": "A0BBYMVADDK",
+            "user_id": "U0BBYPJ3YP7",
+            "icons": {
+                "image_36": "https:\/\/avatars.slack-edge.com\/2026-06-27\/11446983128231_428c6a9d2bcb903e1879_36.png",
+                "image_48": "https:\/\/avatars.slack-edge.com\/2026-06-27\/11446983128231_428c6a9d2bcb903e1879_48.png",
+                "image_72": "https:\/\/avatars.slack-edge.com\/2026-06-27\/11446983128231_428c6a9d2bcb903e1879_72.png"
+            },
+            "team_id": "T0BBLK9BP1V"
+        },
+        "attachments": [
+            {
+                "from_url": "https:\/\/github.com\/chiruu12\/forge2-chiru\/actions\/runs\/28285145280",
+                "service_icon": "https:\/\/a.slack-edge.com\/80588\/img\/unfurl_icons\/github.png",
+                "id": 1,
+                "original_url": "https:\/\/github.com\/chiruu12\/forge2-chiru\/actions\/runs\/28285145280",
+                "fallback": "GitHub: ci: auto-post results to #ci_cd Slack · chiruu12\/forge2-chiru@b193cdf",
+                "text": "Contribute to chiruu12\/forge2-chiru development by creating an account on GitHub.",
+                "title": "ci: auto-post results to #ci_cd Slack · chiruu12\/forge2-chiru@b193cdf",
+                "title_link": "https:\/\/github.com\/chiruu12\/forge2-chiru\/actions\/runs\/28285145280",
+                "service_name": "GitHub"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "17GET",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "white_check_mark",
+                                "unicode": "2705"
+                            },
+                            {
+                                "type": "text",
+                                "text": " CI success — branch "
+                            },
+                            {
+                                "type": "text",
+                                "text": "main",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " (b193cdf) · run "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/chiruu12\/forge2-chiru\/actions\/runs\/28285145280"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0BBYPJ3YP7",
+        "type": "message",
+        "ts": "1782560229.152159",
+        "bot_id": "B0BBLM5RPD5",
+        "app_id": "A0BBYMVADDK",
+        "text": ":white_check_mark: CI success — branch `3\/merge` (dd6f3c2) · run <https:\/\/github.com\/chiruu12\/forge2-chiru\/actions\/runs\/28288029831>",
+        "team": "T0BBLK9BP1V",
+        "bot_profile": {
+            "id": "B0BBLM5RPD5",
+            "app_id": "A0BBYMVADDK",
+            "user_id": "U0BBYPJ3YP7",
+            "name": "Unplug-Manager",
+            "icons": {
+                "image_36": "https:\/\/avatars.slack-edge.com\/2026-06-27\/11446983128231_428c6a9d2bcb903e1879_36.png",
+                "image_48": "https:\/\/avatars.slack-edge.com\/2026-06-27\/11446983128231_428c6a9d2bcb903e1879_48.png",
+                "image_72": "https:\/\/avatars.slack-edge.com\/2026-06-27\/11446983128231_428c6a9d2bcb903e1879_72.png"
+            },
+            "deleted": false,
+            "updated": 1782555285,
+            "team_id": "T0BBLK9BP1V"
+        },
+        "attachments": [
+            {
+                "from_url": "https:\/\/github.com\/chiruu12\/forge2-chiru\/actions\/runs\/28288029831",
+                "service_icon": "https:\/\/a.slack-edge.com\/80588\/img\/unfurl_icons\/github.png",
+                "id": 1,
+                "original_url": "https:\/\/github.com\/chiruu12\/forge2-chiru\/actions\/runs\/28288029831",
+                "fallback": "GitHub: I3: tenant isolation spine · chiruu12\/forge2-chiru@a486cc1",
+                "text": "Contribute to chiruu12\/forge2-chiru development by creating an account on GitHub.",
+                "title": "I3: tenant isolation spine · chiruu12\/forge2-chiru@a486cc1",
+                "title_link": "https:\/\/github.com\/chiruu12\/forge2-chiru\/actions\/runs\/28288029831",
+                "service_name": "GitHub"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "AGqh",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "white_check_mark",
+                                "unicode": "2705"
+                            },
+                            {
+                                "type": "text",
+                                "text": " CI success — branch "
+                            },
+                            {
+                                "type": "text",
+                                "text": "3\/merge",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " (dd6f3c2) · run "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/chiruu12\/forge2-chiru\/actions\/runs\/28288029831"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0BBYPJ3YP7",
+        "type": "message",
+        "ts": "1782560454.968729",
+        "bot_id": "B0BBLM5RPD5",
+        "app_id": "A0BBYMVADDK",
+        "text": ":white_check_mark: CI success — branch `main` (78edf41) · run <https:\/\/github.com\/chiruu12\/forge2-chiru\/actions\/runs\/28288108638>",
+        "team": "T0BBLK9BP1V",
+        "bot_profile": {
+            "id": "B0BBLM5RPD5",
+            "app_id": "A0BBYMVADDK",
+            "user_id": "U0BBYPJ3YP7",
+            "name": "Unplug-Manager",
+            "icons": {
+                "image_36": "https:\/\/avatars.slack-edge.com\/2026-06-27\/11446983128231_428c6a9d2bcb903e1879_36.png",
+                "image_48": "https:\/\/avatars.slack-edge.com\/2026-06-27\/11446983128231_428c6a9d2bcb903e1879_48.png",
+                "image_72": "https:\/\/avatars.slack-edge.com\/2026-06-27\/11446983128231_428c6a9d2bcb903e1879_72.png"
+            },
+            "deleted": false,
+            "updated": 1782555285,
+            "team_id": "T0BBLK9BP1V"
+        },
+        "attachments": [
+            {
+                "from_url": "https:\/\/github.com\/chiruu12\/forge2-chiru\/actions\/runs\/28288108638",
+                "image_url": "https:\/\/opengraph.githubassets.com\/67a36455eab845f105fe1a44412312920ae844a1ee3c8bdad8d678923f189092\/chiruu12\/forge2-chiru",
+                "image_width": 1200,
+                "image_height": 600,
+                "image_bytes": 112786,
+                "service_icon": "https:\/\/a.slack-edge.com\/80588\/img\/unfurl_icons\/github.png",
+                "id": 1,
+                "original_url": "https:\/\/github.com\/chiruu12\/forge2-chiru\/actions\/runs\/28288108638",
+                "fallback": "GitHub: Merge pull request #3 from chiruu12\/feat\/s1-tenant-scope · chiruu12\/forge2-chiru@78edf41",
+                "text": "Contribute to chiruu12\/forge2-chiru development by creating an account on GitHub.",
+                "title": "Merge pull request #3 from chiruu12\/feat\/s1-tenant-scope · chiruu12\/forge2-chiru@78edf41",
+                "title_link": "https:\/\/github.com\/chiruu12\/forge2-chiru\/actions\/runs\/28288108638",
+                "service_name": "GitHub"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "rtZ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "white_check_mark",
+                                "unicode": "2705"
+                            },
+                            {
+                                "type": "text",
+                                "text": " CI success — branch "
+                            },
+                            {
+                                "type": "text",
+                                "text": "main",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " (78edf41) · run "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/chiruu12\/forge2-chiru\/actions\/runs\/28288108638"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0BBYPJ3YP7",
+        "type": "message",
+        "ts": "1782561583.570599",
+        "bot_id": "B0BBLM5RPD5",
+        "app_id": "A0BBYMVADDK",
+        "text": ":white_check_mark: CI success — branch `4\/merge` (1dbe666) · run <https:\/\/github.com\/chiruu12\/forge2-chiru\/actions\/runs\/28288526338>",
+        "team": "T0BBLK9BP1V",
+        "bot_profile": {
+            "id": "B0BBLM5RPD5",
+            "app_id": "A0BBYMVADDK",
+            "user_id": "U0BBYPJ3YP7",
+            "name": "Unplug-Manager",
+            "icons": {
+                "image_36": "https:\/\/avatars.slack-edge.com\/2026-06-27\/11446983128231_428c6a9d2bcb903e1879_36.png",
+                "image_48": "https:\/\/avatars.slack-edge.com\/2026-06-27\/11446983128231_428c6a9d2bcb903e1879_48.png",
+                "image_72": "https:\/\/avatars.slack-edge.com\/2026-06-27\/11446983128231_428c6a9d2bcb903e1879_72.png"
+            },
+            "deleted": false,
+            "updated": 1782555285,
+            "team_id": "T0BBLK9BP1V"
+        },
+        "attachments": [
+            {
+                "from_url": "https:\/\/github.com\/chiruu12\/forge2-chiru\/actions\/runs\/28288526338",
+                "image_url": "https:\/\/opengraph.githubassets.com\/67a36455eab845f105fe1a44412312920ae844a1ee3c8bdad8d678923f189092\/chiruu12\/forge2-chiru",
+                "image_width": 1200,
+                "image_height": 600,
+                "image_bytes": 112786,
+                "service_icon": "https:\/\/a.slack-edge.com\/80588\/img\/unfurl_icons\/github.png",
+                "id": 1,
+                "original_url": "https:\/\/github.com\/chiruu12\/forge2-chiru\/actions\/runs\/28288526338",
+                "fallback": "GitHub: I3: tenant middleware registration · chiruu12\/forge2-chiru@8a82486",
+                "text": "Contribute to chiruu12\/forge2-chiru development by creating an account on GitHub.",
+                "title": "I3: tenant middleware registration · chiruu12\/forge2-chiru@8a82486",
+                "title_link": "https:\/\/github.com\/chiruu12\/forge2-chiru\/actions\/runs\/28288526338",
+                "service_name": "GitHub"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "8fa",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "white_check_mark",
+                                "unicode": "2705"
+                            },
+                            {
+                                "type": "text",
+                                "text": " CI success — branch "
+                            },
+                            {
+                                "type": "text",
+                                "text": "4\/merge",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " (1dbe666) · run "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/chiruu12\/forge2-chiru\/actions\/runs\/28288526338"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0BBYPJ3YP7",
+        "type": "message",
+        "ts": "1782561646.133539",
+        "bot_id": "B0BBLM5RPD5",
+        "app_id": "A0BBYMVADDK",
+        "text": ":white_check_mark: CI success — branch `main` (2d624c0) · run <https:\/\/github.com\/chiruu12\/forge2-chiru\/actions\/runs\/28288550183>",
+        "team": "T0BBLK9BP1V",
+        "bot_profile": {
+            "id": "B0BBLM5RPD5",
+            "app_id": "A0BBYMVADDK",
+            "user_id": "U0BBYPJ3YP7",
+            "name": "Unplug-Manager",
+            "icons": {
+                "image_36": "https:\/\/avatars.slack-edge.com\/2026-06-27\/11446983128231_428c6a9d2bcb903e1879_36.png",
+                "image_48": "https:\/\/avatars.slack-edge.com\/2026-06-27\/11446983128231_428c6a9d2bcb903e1879_48.png",
+                "image_72": "https:\/\/avatars.slack-edge.com\/2026-06-27\/11446983128231_428c6a9d2bcb903e1879_72.png"
+            },
+            "deleted": false,
+            "updated": 1782555285,
+            "team_id": "T0BBLK9BP1V"
+        },
+        "attachments": [
+            {
+                "from_url": "https:\/\/github.com\/chiruu12\/forge2-chiru\/actions\/runs\/28288550183",
+                "image_url": "https:\/\/opengraph.githubassets.com\/d2d05c5e84e44b19b6b2f3377fd71d60ffe48027b19a7ce28df70e5dd5870812\/chiruu12\/forge2-chiru",
+                "image_width": 1200,
+                "image_height": 600,
+                "image_bytes": 112780,
+                "service_icon": "https:\/\/a.slack-edge.com\/80588\/img\/unfurl_icons\/github.png",
+                "id": 1,
+                "original_url": "https:\/\/github.com\/chiruu12\/forge2-chiru\/actions\/runs\/28288550183",
+                "fallback": "GitHub: Merge pull request #4 from chiruu12\/feat\/s1-tenant-scope · chiruu12\/forge2-chiru@2d624c0",
+                "text": "Contribute to chiruu12\/forge2-chiru development by creating an account on GitHub.",
+                "title": "Merge pull request #4 from chiruu12\/feat\/s1-tenant-scope · chiruu12\/forge2-chiru@2d624c0",
+                "title_link": "https:\/\/github.com\/chiruu12\/forge2-chiru\/actions\/runs\/28288550183",
+                "service_name": "GitHub"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "dE8hN",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "white_check_mark",
+                                "unicode": "2705"
+                            },
+                            {
+                                "type": "text",
+                                "text": " CI success — branch "
+                            },
+                            {
+                                "type": "text",
+                                "text": "main",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " (2d624c0) · run "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/chiruu12\/forge2-chiru\/actions\/runs\/28288550183"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0BBYPJ3YP7",
+        "type": "message",
+        "ts": "1782563534.679899",
+        "bot_id": "B0BBLM5RPD5",
+        "app_id": "A0BBYMVADDK",
+        "text": ":white_check_mark: CI success — branch `5\/merge` (6e08b7f) · run <https:\/\/github.com\/chiruu12\/forge2-chiru\/actions\/runs\/28289275605>",
+        "team": "T0BBLK9BP1V",
+        "bot_profile": {
+            "id": "B0BBLM5RPD5",
+            "app_id": "A0BBYMVADDK",
+            "user_id": "U0BBYPJ3YP7",
+            "name": "Unplug-Manager",
+            "icons": {
+                "image_36": "https:\/\/avatars.slack-edge.com\/2026-06-27\/11446983128231_428c6a9d2bcb903e1879_36.png",
+                "image_48": "https:\/\/avatars.slack-edge.com\/2026-06-27\/11446983128231_428c6a9d2bcb903e1879_48.png",
+                "image_72": "https:\/\/avatars.slack-edge.com\/2026-06-27\/11446983128231_428c6a9d2bcb903e1879_72.png"
+            },
+            "deleted": false,
+            "updated": 1782555285,
+            "team_id": "T0BBLK9BP1V"
+        },
+        "attachments": [
+            {
+                "from_url": "https:\/\/github.com\/chiruu12\/forge2-chiru\/actions\/runs\/28289275605",
+                "image_url": "https:\/\/opengraph.githubassets.com\/d2d05c5e84e44b19b6b2f3377fd71d60ffe48027b19a7ce28df70e5dd5870812\/chiruu12\/forge2-chiru",
+                "image_width": 1200,
+                "image_height": 600,
+                "image_bytes": 112780,
+                "service_icon": "https:\/\/a.slack-edge.com\/80588\/img\/unfurl_icons\/github.png",
+                "id": 1,
+                "original_url": "https:\/\/github.com\/chiruu12\/forge2-chiru\/actions\/runs\/28289275605",
+                "fallback": "GitHub: I4: Ticket CRUD + Authorization with tenant scope · chiruu12\/forge2-chiru@86debd7",
+                "text": "Contribute to chiruu12\/forge2-chiru development by creating an account on GitHub.",
+                "title": "I4: Ticket CRUD + Authorization with tenant scope · chiruu12\/forge2-chiru@86debd7",
+                "title_link": "https:\/\/github.com\/chiruu12\/forge2-chiru\/actions\/runs\/28289275605",
+                "service_name": "GitHub"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "sqm",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "white_check_mark",
+                                "unicode": "2705"
+                            },
+                            {
+                                "type": "text",
+                                "text": " CI success — branch "
+                            },
+                            {
+                                "type": "text",
+                                "text": "5\/merge",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " (6e08b7f) · run "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/chiruu12\/forge2-chiru\/actions\/runs\/28289275605"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0BBYPJ3YP7",
+        "type": "message",
+        "ts": "1782563820.530389",
+        "bot_id": "B0BBLM5RPD5",
+        "app_id": "A0BBYMVADDK",
+        "text": ":white_check_mark: CI success — branch `main` (62e04dc) · run <https:\/\/github.com\/chiruu12\/forge2-chiru\/actions\/runs\/28289382219>",
+        "team": "T0BBLK9BP1V",
+        "bot_profile": {
+            "id": "B0BBLM5RPD5",
+            "app_id": "A0BBYMVADDK",
+            "user_id": "U0BBYPJ3YP7",
+            "name": "Unplug-Manager",
+            "icons": {
+                "image_36": "https:\/\/avatars.slack-edge.com\/2026-06-27\/11446983128231_428c6a9d2bcb903e1879_36.png",
+                "image_48": "https:\/\/avatars.slack-edge.com\/2026-06-27\/11446983128231_428c6a9d2bcb903e1879_48.png",
+                "image_72": "https:\/\/avatars.slack-edge.com\/2026-06-27\/11446983128231_428c6a9d2bcb903e1879_72.png"
+            },
+            "deleted": false,
+            "updated": 1782555285,
+            "team_id": "T0BBLK9BP1V"
+        },
+        "attachments": [
+            {
+                "from_url": "https:\/\/github.com\/chiruu12\/forge2-chiru\/actions\/runs\/28289382219",
+                "image_url": "https:\/\/opengraph.githubassets.com\/ce946444d601621b1c9ac79f033c26b8f3d44083dc718d926726efdffb9d0321\/chiruu12\/forge2-chiru",
+                "image_width": 1200,
+                "image_height": 600,
+                "image_bytes": 112780,
+                "service_icon": "https:\/\/a.slack-edge.com\/80588\/img\/unfurl_icons\/github.png",
+                "id": 1,
+                "original_url": "https:\/\/github.com\/chiruu12\/forge2-chiru\/actions\/runs\/28289382219",
+                "fallback": "GitHub: Merge pull request #5 from chiruu12\/feat\/s1-ticket-crud · chiruu12\/forge2-chiru@62e04dc",
+                "text": "Contribute to chiruu12\/forge2-chiru development by creating an account on GitHub.",
+                "title": "Merge pull request #5 from chiruu12\/feat\/s1-ticket-crud · chiruu12\/forge2-chiru@62e04dc",
+                "title_link": "https:\/\/github.com\/chiruu12\/forge2-chiru\/actions\/runs\/28289382219",
+                "service_name": "GitHub"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ERno",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "white_check_mark",
+                                "unicode": "2705"
+                            },
+                            {
+                                "type": "text",
+                                "text": " CI success — branch "
+                            },
+                            {
+                                "type": "text",
+                                "text": "main",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " (62e04dc) · run "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/chiruu12\/forge2-chiru\/actions\/runs\/28289382219"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0BBYPJ3YP7",
+        "type": "message",
+        "ts": "1782564984.411129",
+        "bot_id": "B0BBLM5RPD5",
+        "app_id": "A0BBYMVADDK",
+        "text": ":white_check_mark: CI success — branch `main` (e3f6086) · run <https:\/\/github.com\/chiruu12\/forge2-chiru\/actions\/runs\/28289833224>",
+        "team": "T0BBLK9BP1V",
+        "bot_profile": {
+            "id": "B0BBLM5RPD5",
+            "app_id": "A0BBYMVADDK",
+            "user_id": "U0BBYPJ3YP7",
+            "name": "Unplug-Manager",
+            "icons": {
+                "image_36": "https:\/\/avatars.slack-edge.com\/2026-06-27\/11446983128231_428c6a9d2bcb903e1879_36.png",
+                "image_48": "https:\/\/avatars.slack-edge.com\/2026-06-27\/11446983128231_428c6a9d2bcb903e1879_48.png",
+                "image_72": "https:\/\/avatars.slack-edge.com\/2026-06-27\/11446983128231_428c6a9d2bcb903e1879_72.png"
+            },
+            "deleted": false,
+            "updated": 1782555285,
+            "team_id": "T0BBLK9BP1V"
+        },
+        "attachments": [
+            {
+                "from_url": "https:\/\/github.com\/chiruu12\/forge2-chiru\/actions\/runs\/28289833224",
+                "image_url": "https:\/\/opengraph.githubassets.com\/52625bc4ab830baf636885ad49b3859007245da789d93f56e90a6ca9f32b15c7\/chiruu12\/forge2-chiru",
+                "image_width": 1200,
+                "image_height": 600,
+                "image_bytes": 112780,
+                "service_icon": "https:\/\/a.slack-edge.com\/80588\/img\/unfurl_icons\/github.png",
+                "id": 1,
+                "original_url": "https:\/\/github.com\/chiruu12\/forge2-chiru\/actions\/runs\/28289833224",
+                "fallback": "GitHub: docs(sprints): fill sprint-01 with I1-I5 status, mark sprint-02 block… · chiruu12\/forge2-chiru@e3f6086",
+                "text": "Contribute to chiruu12\/forge2-chiru development by creating an account on GitHub.",
+                "title": "docs(sprints): fill sprint-01 with I1-I5 status, mark sprint-02 block… · chiruu12\/forge2-chiru@e3f6086",
+                "title_link": "https:\/\/github.com\/chiruu12\/forge2-chiru\/actions\/runs\/28289833224",
+                "service_name": "GitHub"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "8x\/C",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "white_check_mark",
+                                "unicode": "2705"
+                            },
+                            {
+                                "type": "text",
+                                "text": " CI success — branch "
+                            },
+                            {
+                                "type": "text",
+                                "text": "main",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " (e3f6086) · run "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/chiruu12\/forge2-chiru\/actions\/runs\/28289833224"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0BBYPJ3YP7",
+        "type": "message",
+        "ts": "1782565126.545109",
+        "bot_id": "B0BBLM5RPD5",
+        "app_id": "A0BBYMVADDK",
+        "text": ":white_check_mark: CI success — branch `6\/merge` (8415380) · run <https:\/\/github.com\/chiruu12\/forge2-chiru\/actions\/runs\/28289893218>",
+        "team": "T0BBLK9BP1V",
+        "bot_profile": {
+            "id": "B0BBLM5RPD5",
+            "app_id": "A0BBYMVADDK",
+            "user_id": "U0BBYPJ3YP7",
+            "name": "Unplug-Manager",
+            "icons": {
+                "image_36": "https:\/\/avatars.slack-edge.com\/2026-06-27\/11446983128231_428c6a9d2bcb903e1879_36.png",
+                "image_48": "https:\/\/avatars.slack-edge.com\/2026-06-27\/11446983128231_428c6a9d2bcb903e1879_48.png",
+                "image_72": "https:\/\/avatars.slack-edge.com\/2026-06-27\/11446983128231_428c6a9d2bcb903e1879_72.png"
+            },
+            "deleted": false,
+            "updated": 1782555285,
+            "team_id": "T0BBLK9BP1V"
+        },
+        "attachments": [
+            {
+                "from_url": "https:\/\/github.com\/chiruu12\/forge2-chiru\/actions\/runs\/28289893218",
+                "image_url": "https:\/\/opengraph.githubassets.com\/52625bc4ab830baf636885ad49b3859007245da789d93f56e90a6ca9f32b15c7\/chiruu12\/forge2-chiru",
+                "image_width": 1200,
+                "image_height": 600,
+                "image_bytes": 112780,
+                "service_icon": "https:\/\/a.slack-edge.com\/80588\/img\/unfurl_icons\/github.png",
+                "id": 1,
+                "original_url": "https:\/\/github.com\/chiruu12\/forge2-chiru\/actions\/runs\/28289893218",
+                "fallback": "GitHub: I5: Seeder + Pest Acceptance Suite (closes Sprint 1) · chiruu12\/forge2-chiru@96f806c",
+                "text": "Contribute to chiruu12\/forge2-chiru development by creating an account on GitHub.",
+                "title": "I5: Seeder + Pest Acceptance Suite (closes Sprint 1) · chiruu12\/forge2-chiru@96f806c",
+                "title_link": "https:\/\/github.com\/chiruu12\/forge2-chiru\/actions\/runs\/28289893218",
+                "service_name": "GitHub"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "5OgN",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "white_check_mark",
+                                "unicode": "2705"
+                            },
+                            {
+                                "type": "text",
+                                "text": " CI success — branch "
+                            },
+                            {
+                                "type": "text",
+                                "text": "6\/merge",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " (8415380) · run "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/chiruu12\/forge2-chiru\/actions\/runs\/28289893218"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0BBYPJ3YP7",
+        "type": "message",
+        "ts": "1782565499.540939",
+        "bot_id": "B0BBLM5RPD5",
+        "app_id": "A0BBYMVADDK",
+        "text": ":white_check_mark: CI success — branch `main` (3003a47) · run <https:\/\/github.com\/chiruu12\/forge2-chiru\/actions\/runs\/28290045379>",
+        "team": "T0BBLK9BP1V",
+        "bot_profile": {
+            "id": "B0BBLM5RPD5",
+            "app_id": "A0BBYMVADDK",
+            "user_id": "U0BBYPJ3YP7",
+            "name": "Unplug-Manager",
+            "icons": {
+                "image_36": "https:\/\/avatars.slack-edge.com\/2026-06-27\/11446983128231_428c6a9d2bcb903e1879_36.png",
+                "image_48": "https:\/\/avatars.slack-edge.com\/2026-06-27\/11446983128231_428c6a9d2bcb903e1879_48.png",
+                "image_72": "https:\/\/avatars.slack-edge.com\/2026-06-27\/11446983128231_428c6a9d2bcb903e1879_72.png"
+            },
+            "deleted": false,
+            "updated": 1782555285,
+            "team_id": "T0BBLK9BP1V"
+        },
+        "attachments": [
+            {
+                "from_url": "https:\/\/github.com\/chiruu12\/forge2-chiru\/actions\/runs\/28290045379",
+                "image_url": "https:\/\/opengraph.githubassets.com\/bc7bfe68d39887645553a1fe4ee8c45d73a6b06c99a9c892994ca52167c999b6\/chiruu12\/forge2-chiru",
+                "image_width": 1200,
+                "image_height": 600,
+                "image_bytes": 112780,
+                "service_icon": "https:\/\/a.slack-edge.com\/80588\/img\/unfurl_icons\/github.png",
+                "id": 1,
+                "original_url": "https:\/\/github.com\/chiruu12\/forge2-chiru\/actions\/runs\/28290045379",
+                "fallback": "GitHub: Merge pull request #6 from chiruu12\/feat\/s1-seeder-acceptance · chiruu12\/forge2-chiru@3003a47",
+                "text": "Contribute to chiruu12\/forge2-chiru development by creating an account on GitHub.",
+                "title": "Merge pull request #6 from chiruu12\/feat\/s1-seeder-acceptance · chiruu12\/forge2-chiru@3003a47",
+                "title_link": "https:\/\/github.com\/chiruu12\/forge2-chiru\/actions\/runs\/28290045379",
+                "service_name": "GitHub"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "PPX",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "white_check_mark",
+                                "unicode": "2705"
+                            },
+                            {
+                                "type": "text",
+                                "text": " CI success — branch "
+                            },
+                            {
+                                "type": "text",
+                                "text": "main",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " (3003a47) · run "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/chiruu12\/forge2-chiru\/actions\/runs\/28290045379"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0BBYPJ3YP7",
+        "type": "message",
+        "ts": "1782565783.432009",
+        "bot_id": "B0BBLM5RPD5",
+        "app_id": "A0BBYMVADDK",
+        "text": ":white_check_mark: CI success — branch `main` (5a2b4a6) · run <https:\/\/github.com\/chiruu12\/forge2-chiru\/actions\/runs\/28290149204>",
+        "team": "T0BBLK9BP1V",
+        "bot_profile": {
+            "id": "B0BBLM5RPD5",
+            "app_id": "A0BBYMVADDK",
+            "user_id": "U0BBYPJ3YP7",
+            "name": "Unplug-Manager",
+            "icons": {
+                "image_36": "https:\/\/avatars.slack-edge.com\/2026-06-27\/11446983128231_428c6a9d2bcb903e1879_36.png",
+                "image_48": "https:\/\/avatars.slack-edge.com\/2026-06-27\/11446983128231_428c6a9d2bcb903e1879_48.png",
+                "image_72": "https:\/\/avatars.slack-edge.com\/2026-06-27\/11446983128231_428c6a9d2bcb903e1879_72.png"
+            },
+            "deleted": false,
+            "updated": 1782555285,
+            "team_id": "T0BBLK9BP1V"
+        },
+        "attachments": [
+            {
+                "from_url": "https:\/\/github.com\/chiruu12\/forge2-chiru\/actions\/runs\/28290149204",
+                "image_url": "https:\/\/opengraph.githubassets.com\/d9b869155017bf282904a1250019da88c8af3fe29d4cc289dc53cd72a0f1a507\/chiruu12\/forge2-chiru",
+                "image_width": 1200,
+                "image_height": 600,
+                "image_bytes": 112780,
+                "service_icon": "https:\/\/a.slack-edge.com\/80588\/img\/unfurl_icons\/github.png",
+                "id": 1,
+                "original_url": "https:\/\/github.com\/chiruu12\/forge2-chiru\/actions\/runs\/28290149204",
+                "fallback": "GitHub: add evidence: live agent configs, real agent-log, screenshots · chiruu12\/forge2-chiru@5a2b4a6",
+                "text": "Contribute to chiruu12\/forge2-chiru development by creating an account on GitHub.",
+                "title": "add evidence: live agent configs, real agent-log, screenshots · chiruu12\/forge2-chiru@5a2b4a6",
+                "title_link": "https:\/\/github.com\/chiruu12\/forge2-chiru\/actions\/runs\/28290149204",
+                "service_name": "GitHub"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "0Oe60",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "white_check_mark",
+                                "unicode": "2705"
+                            },
+                            {
+                                "type": "text",
+                                "text": " CI success — branch "
+                            },
+                            {
+                                "type": "text",
+                                "text": "main",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " (5a2b4a6) · run "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/chiruu12\/forge2-chiru\/actions\/runs\/28290149204"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
