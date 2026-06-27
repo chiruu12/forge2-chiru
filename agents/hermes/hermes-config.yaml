@@ -20,8 +20,15 @@ responsibilities:
 slack:
   app_token: ${SLACK_APP_TOKEN}
   bot_token: ${SLACK_BOT_TOKEN}
-  channels: ["#sprint_main", "#agent_coder", "#human_review"]
+  allowed_channels: ["#sprint_main", "#agent_coder", "#agent_log", "#human_review", "#ci_cd"]
+  allow_bots: mentions      # react to the coder's @mention so the loop closes (coder -> Hermes verify)
+  require_mention: true
+  # The handoff happens IN #agent_coder: Hermes replies there with the full work order @mentioning the
+  # coder (no cross-channel send tool exists in this build). channel_prompts bake the PO behavior per channel.
+  channel_prompts:
+    "#agent_coder": "PO handoff room. Reply here with a COMPLETE work order that STARTS with the coder's mention (acceptance criteria, exact branch, 'open a PR do NOT merge', 'report to #agent_log'). When the coder reports back, verify against the criteria and post a verdict. Never write code yourself."
 
 worker:
   name: openclaw
-  handoff_channel: "#agent-coder"
+  bot_user_id: U0BDN8QJ74Z   # the coder's Slack bot id; Hermes @mentions this to dispatch it
+  handoff_channel: "#agent_coder"

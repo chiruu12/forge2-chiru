@@ -13,10 +13,16 @@
   "channels": {
     "slack": {
       "enabled": true,
+      "_app": "SEPARATE Slack app from Hermes, with its own bot identity (coder = 'pulsedesk-coder'; manager = 'Forge-Unplug'). REQUIRED for genuine agent-to-agent: a single shared app self-drops its own messages, so the manager could never trigger the coder.",
       "appToken": { "source": "env", "id": "SLACK_APP_TOKEN" },
       "botToken": { "source": "env", "id": "SLACK_BOT_TOKEN" },
-      "groupPolicy": "open",
-      "channels": ["#agent_coder", "#agent_log", "#ci_cd"],
+      "groupPolicy": "allowlist",
+      "channels": ["#agent_coder"],
+      "allowBots": true,
+      "allowFrom": ["*", "U0BBYPJ3YP7"],
+      "botLoopProtection": { "enabled": true, "maxEventsPerWindow": 8 },
+      "_dispatch_note": "allowBots:true PLUS allowFrom listing the manager's bot user id (U0BBYPJ3YP7) is what makes Hermes's @mention actually DISPATCH the coder's agent. Without allowFrom the mention is received but no agent run starts.",
+      "report_to": "#agent_log",
       "report_format": "What I Did / What's Left / What Needs Your Call"
     }
   },
@@ -33,6 +39,7 @@
       "commit_author": "OpenClaw <openclaw@forge2.local>"
     }
   },
-  "tools": ["filesystem", "shell", "git", "github_pr", "http"],
+  "tools": ["filesystem", "shell", "git", "github_pr", "http", "message"],
+  "_tools_note": "tools.profile=minimal + alsoAllow [group:fs, group:runtime, group:messaging]. group:messaging enables the 'message' tool so the coder posts build reports to #agent_log.",
   "skills_dir": "../skills"
 }
