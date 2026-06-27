@@ -1,0 +1,114 @@
+[
+{
+    "id": "C0BDPJ2MPRA",
+    "name": "ci_cd",
+    "created": 1782543515,
+    "creator": "U0BBVNZ82RH",
+    "is_archived": false,
+    "is_general": false,
+    "members": [
+        "U0BBVNZ82RH",
+        "U0BBYPJ3YP7"
+    ],
+    "topic": {
+        "value": "",
+        "creator": "",
+        "last_set": 0
+    },
+    "purpose": {
+        "value": "",
+        "creator": "",
+        "last_set": 0
+    }
+},
+{
+    "id": "C0BC40M9AN5",
+    "name": "sprint_main",
+    "created": 1782034353,
+    "creator": "U0BBVNZ82RH",
+    "is_archived": false,
+    "is_general": false,
+    "members": [
+        "U0BBVNZ82RH",
+        "U0BBYPJ3YP7"
+    ],
+    "topic": {
+        "value": "",
+        "creator": "",
+        "last_set": 0
+    },
+    "purpose": {
+        "value": "",
+        "creator": "",
+        "last_set": 0
+    }
+},
+{
+    "id": "C0BC40Q5KED",
+    "name": "agent_coder",
+    "created": 1782034420,
+    "creator": "U0BBVNZ82RH",
+    "is_archived": false,
+    "is_general": false,
+    "members": [
+        "U0BBVNZ82RH",
+        "U0BBYPJ3YP7",
+        "U0BDN8QJ74Z"
+    ],
+    "topic": {
+        "value": "",
+        "creator": "",
+        "last_set": 0
+    },
+    "purpose": {
+        "value": "",
+        "creator": "",
+        "last_set": 0
+    }
+},
+{
+    "id": "C0BC259KDPC",
+    "name": "agent_log",
+    "created": 1782034391,
+    "creator": "U0BBVNZ82RH",
+    "is_archived": false,
+    "is_general": false,
+    "members": [
+        "U0BBVNZ82RH",
+        "U0BBYPJ3YP7",
+        "U0BDN8QJ74Z"
+    ],
+    "topic": {
+        "value": "",
+        "creator": "",
+        "last_set": 0
+    },
+    "purpose": {
+        "value": "",
+        "creator": "",
+        "last_set": 0
+    }
+},
+{
+    "id": "C0BDHS1H98W",
+    "name": "human_review",
+    "created": 1782543550,
+    "creator": "U0BBVNZ82RH",
+    "is_archived": false,
+    "is_general": false,
+    "members": [
+        "U0BBVNZ82RH",
+        "U0BBYPJ3YP7"
+    ],
+    "topic": {
+        "value": "",
+        "creator": "",
+        "last_set": 0
+    },
+    "purpose": {
+        "value": "",
+        "creator": "",
+        "last_set": 0
+    }
+}
+]
