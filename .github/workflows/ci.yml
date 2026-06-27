@@ -35,3 +35,11 @@ jobs:
         run: |
           php artisan migrate --force
           php artisan test
+      - name: Notify Slack (#ci_cd)
+        if: always()
+        run: |
+          if [ "${{ job.status }}" = "success" ]; then EMOJI="✅"; else EMOJI="❌"; fi
+          curl -s -X POST https://slack.com/api/chat.postMessage \
+            -H "Authorization: Bearer ${{ secrets.SLACK_BOT_TOKEN }}" \
+            -H "Content-Type: application/json" \
+            --data "{\"channel\":\"C0BDPJ2MPRA\",\"text\":\"${EMOJI} CI ${{ job.status }} — branch \`${{ github.ref_name }}\` (${GITHUB_SHA:0:7}) · run https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}\"}" || true
