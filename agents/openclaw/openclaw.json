@@ -3,7 +3,7 @@
   "model": {
     "base_url": "https://api.eastrouter.com/v1",
     "api_key": "${EASTROUTER_API_KEY}",
-    "model": "z-ai/glm-5.1"
+    "model": "moonshotai/kimi-k2.7-code"
   },
   "fallback_model": {
     "_note": "Used ONLY if EastRouter is down. Documented in README. Avoids the EastRouter-only penalty if the API drops.",
@@ -15,7 +15,8 @@
       "enabled": true,
       "appToken": { "source": "env", "id": "SLACK_APP_TOKEN" },
       "botToken": { "source": "env", "id": "SLACK_BOT_TOKEN" },
-      "channels": ["#agent-coder", "#agent-log", "#ci-cd"],
+      "groupPolicy": "open",
+      "channels": ["#agent_coder", "#agent_log", "#ci_cd"],
       "report_format": "What I Did / What's Left / What Needs Your Call"
     }
   },

@@ -5,3 +5,13 @@
 /frontend/dist
 .DS_Store
 # never commit real secrets / keys
+
+# OpenClaw runtime artifacts (agent identity/state, not PulseDesk source)
+/AGENTS.md
+/SOUL.md
+/TOOLS.md
+/IDENTITY.md
+/USER.md
+/HEARTBEAT.md
+/openclaw-workspace-state.json
+/evidence/loop-check.txt

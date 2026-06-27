@@ -2,8 +2,8 @@
 provider: eastrouter
 base_url: https://api.eastrouter.com/v1
 api_key:  ${EASTROUTER_API_KEY}        # never commit the real sk-er_ key
-model:    deepseek/deepseek-v4-pro      # heavy reasoning for architecture + sprint planning (1M ctx)
-fallback_model: z-ai/glm-5.1            # all-round; used if deepseek is slow/unavailable
+model:    z-ai/glm-5.1                  # reasoning planner (200K ctx); EastRouter serves only glm-* / kimi-*
+fallback_model: z-ai/glm-5-turbo        # faster fallback
 
 memory:
   enabled: true
@@ -20,7 +20,7 @@ responsibilities:
 slack:
   app_token: ${SLACK_APP_TOKEN}
   bot_token: ${SLACK_BOT_TOKEN}
-  channels: ["#sprint-main", "#agent-coder", "#human-review"]
+  channels: ["#sprint_main", "#agent_coder", "#human_review"]
 
 worker:
   name: openclaw
