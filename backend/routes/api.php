@@ -18,5 +18,9 @@ Route::middleware('auth:sanctum')->get('/me', [AuthController::class, 'me']);
 Route::middleware('tenant')
     ->prefix('tickets')
     ->group(function () {
+        Route::get('/', [TicketController::class, 'index']);
+        Route::post('/', [TicketController::class, 'store']);
         Route::get('/{ticket}', [TicketController::class, 'show']);
+        Route::put('/{ticket}', [TicketController::class, 'update']);
+        Route::delete('/{ticket}', [TicketController::class, 'destroy']);
     });
