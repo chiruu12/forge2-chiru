@@ -17,3 +17,10 @@ description: Turn a feature or sprint goal into an ordered backlog of small, tes
 - If an issue can't be tested on its own, split or merge it.
 - Front-load the tenancy + auth foundation — everything depends on it.
 - Keep a sprint to ~4–6 issues so the loop visibly completes ≥ 2 sprints.
+
+## Sprint doc maintenance
+Sprint docs are living documents — update them throughout the sprint, not just at decomposition:
+- As each issue's PR merges, check off its line in the Issues list.
+- When the sprint closes, fill in the Outcome section (shipped, slipped, PR numbers).
+- The next sprint's doc stays as a placeholder until the current sprint's final issue merges.
+- Commit sprint doc updates directly to main (they're docs, not code — no PR needed).

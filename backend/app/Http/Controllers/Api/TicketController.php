@@ -10,14 +10,43 @@ use Illuminate\Http\Request;
 
 class TicketController extends Controller
 {
-    public function index(): JsonResponse
+    public function index(Request $request): JsonResponse
     {
-        $user = request()->user();
+        $user = $request->user();
 
         $query = Ticket::with(['requester', 'assignee']);
 
         if ($user->role === 'customer') {
             $query->where('requester_id', $user->id);
+        }
+
+        // Filter by status
+        if ($request->has('status')) {
+            $query->where('status', $request->get('status'));
+        }
+
+        // Filter by priority
+        if ($request->has('priority')) {
+            $query->where('priority', $request->get('priority'));
+        }
+
+        // Filter by assignee_id
+        if ($request->has('assignee_id')) {
+            $assigneeId = $request->get('assignee_id');
+            if ($assigneeId === 'null' || $assigneeId === null) {
+                $query->whereNull('assignee_id');
+            } else {
+                $query->where('assignee_id', $assigneeId);
+            }
+        }
+
+        // Search by subject or description
+        if ($request->has('q')) {
+            $search = $request->get('q');
+            $query->where(function ($q) use ($search) {
+                $q->where('subject', 'like', "%{$search}%")
+                  ->orWhere('description', 'like', "%{$search}%");
+            });
         }
 
         return response()->json([
@@ -79,7 +108,7 @@ class TicketController extends Controller
         }
 
         return response()->json([
-            'data' => $ticket->load(['requester', 'assignee']),
+            'data' => $ticket->load(['requester', 'assignee', 'comments.author']),
         ]);
     }
 
@@ -124,7 +153,7 @@ class TicketController extends Controller
         $ticket->update($validated);
 
         return response()->json([
-            'data' => $ticket->load(['requester', 'assignee']),
+            'data' => $ticket->load(['requester', 'assignee', 'comments.author']),
         ]);
     }
 
