@@ -17,7 +17,7 @@ it('registers a user and returns a sanctum token', function () {
         ->assertJsonStructure(['token', 'user' => ['id', 'name', 'email', 'role', 'organization']])
         ->assertJsonPath('user.role', 'admin');
 
-    $this->assertDatabaseHas('organizations', ['slug' => 'test-org']);
+    $this->assertDatabaseHas('organizations', ['name' => 'Test Org']);
     $this->assertDatabaseHas('users', ['email' => 'admin@example.com', 'role' => 'admin']);
 });
 
@@ -54,7 +54,7 @@ it('returns authenticated user with organization and role', function () {
     $response = $this->actingAs($user, 'sanctum')->getJson('/api/me');
 
     $response->assertStatus(200)
-        ->assertJsonPath('id', $user->id)
-        ->assertJsonPath('role', 'customer')
-        ->assertJsonPath('organization.id', $organization->id);
+        ->assertJsonPath('data.id', $user->id)
+        ->assertJsonPath('data.role', 'customer')
+        ->assertJsonPath('data.organization.id', $organization->id);
 });
